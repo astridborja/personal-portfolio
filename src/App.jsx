@@ -105,12 +105,12 @@ function App() {
               />
             </div>
             <div className="col-lg-7 text-center text-lg-left">
-              <h3 className="text-white font-weight-normal mb-3">I'm</h3>
+              <h3 className="text-white font-weight-normal mb-3">Hi I'm</h3>
               <h1
                 className="display-3 text-uppercase text-primary mb-2"
                 style={{ WebkitTextStroke: "2px #ffffff" }}
               >
-                Kate Winslet
+                Astrid Borja
               </h1>
               <h1 className="typed-text-output d-inline font-weight-lighter text-white" />
               <div className="typed-text d-none">
@@ -172,7 +172,7 @@ function App() {
               <div className="row mb-3">
                 <div className="col-sm-6 py-2">
                   <h6>
-                    Name: <span className="text-secondary">Kate Winslet</span>
+                    Name: <span className="text-secondary">Astrid Borja</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
@@ -183,7 +183,7 @@ function App() {
                 </div>
                 <div className="col-sm-6 py-2">
                   <h6>
-                    Degree: <span className="text-secondary">Master</span>
+                    Degree: <span className="text-secondary">Bachelor of Science in Information Systems</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
@@ -199,14 +199,14 @@ function App() {
                 <div className="col-sm-6 py-2">
                   <h6>
                     Email:{" "}
-                    <span className="text-secondary">info@example.com</span>
+                    <span className="text-secondary">astridborja@student.laverdad.edu.ph</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
                   <h6>
                     Address:{" "}
                     <span className="text-secondary">
-                      123 Street, New York, USA
+                      Laguna, Philippines
                     </span>
                   </h6>
                 </div>
@@ -286,7 +286,7 @@ function App() {
                   />
                   <h5 className="font-weight-bold mb-1">Master In CSE</h5>
                   <p className="mb-2">
-                    <strong>Cambridge University</strong> |{" "}
+                    <strong>La Verdad Christian College Inc.</strong> |{" "}
                     <small>2000 - 2050</small>
                   </p>
                   <p>
