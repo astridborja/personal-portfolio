@@ -1,8 +1,9 @@
 import "./css/style.css";
-import "./css/style.min.css";
 
 import img1 from './img/profile.jpg'
 import img2 from './img/about.jpg'
+import img3 from './img/portfolio-1.jpg'
+import img4 from './img/portfolio-2.jpg'
 
 function App() {
   return (
@@ -167,10 +168,7 @@ function App() {
             <div className="col-lg-7">
               <h3 className="mb-4">UI/UX Designer &amp; Web Developer</h3>
               <p>
-                Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit
-                amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd
-                sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet
-                lorem diam dolor justo et dolor dolor dolor
+              My journey began with a fascination for design and technology, leading me to explore both fields extensively. As a UI/UX Designer, I focus on understanding users’ needs through research and usability testing, ensuring that every interface I create is intuitive and engaging. I believe that great design is not just about looking good; it’s about solving problems and enhancing the overall user experience.
               </p>
               <div className="row mb-3">
                 <div className="col-sm-6 py-2">
@@ -253,16 +251,13 @@ function App() {
                     className="far fa-dot-circle text-primary position-absolute"
                     style={{ top: 2, left: "-32px" }}
                   />
-                  <h5 className="font-weight-bold mb-1">Master In CSE</h5>
+                  <h5 className="font-weight-bold mb-1">College</h5>
                   <p className="mb-2">
-                    <strong>Cambridge University</strong> |{" "}
-                    <small>2000 - 2050</small>
+                    <strong>La Verdad Christian College </strong> |{" "}
+                    <small>2022 - Present</small>
                   </p>
                   <p>
-                    Tempor eos dolore amet tempor dolor tempor. Dolore ea magna
-                    sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita
-                    lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum
-                    stet lorem diam
+                  I am currently pursuing a Bachelor of Science in Information Systems at La Verdad Christian College. This program has provided me with a solid foundation in both technical skills and practical knowledge, essential for a successful career in the ever-evolving field of technology.
                   </p>
                 </div>
                 <div className="position-relative mb-4">
@@ -270,16 +265,14 @@ function App() {
                     className="far fa-dot-circle text-primary position-absolute"
                     style={{ top: 2, left: "-32px" }}
                   />
-                  <h5 className="font-weight-bold mb-1">Master In CSE</h5>
+                  <h5 className="font-weight-bold mb-1">Senior High School</h5>
                   <p className="mb-2">
-                    <strong>Cambridge University</strong> |{" "}
-                    <small>2000 - 2050</small>
+                    <strong>La Verdad Christian School Inc.</strong> |{" "}
+                    <small>2017 - 2019</small>
                   </p>
+                  Throughout my senior year, I was actively involved in various extracurricular activities that enriched my education and allowed me to explore my interests. 
                   <p>
-                    Tempor eos dolore amet tempor dolor tempor. Dolore ea magna
-                    sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita
-                    lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum
-                    stet lorem diam
+                    
                   </p>
                 </div>
                 <div className="position-relative mb-4">
@@ -287,18 +280,17 @@ function App() {
                     className="far fa-dot-circle text-primary position-absolute"
                     style={{ top: 2, left: "-32px" }}
                   />
-                  <h5 className="font-weight-bold mb-1">Master In CSE</h5>
+                  <h5 className="font-weight-bold mb-1">First Year Architecture</h5>
                   <p className="mb-2">
-                    <strong>La Verdad Christian College Inc.</strong> |{" "}
-                    <small>2000 - 2050</small>
+                    <strong>Mapua  Malayan Colleges</strong> |{" "}
+                    <small>2020 - 2021</small>
                   </p>
+   
                   <p>
-                    Tempor eos dolore amet tempor dolor tempor. Dolore ea magna
-                    sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita
-                    lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum
-                    stet lorem diam
+                  I began my journey at Mapúa Malayan Colleges, pursuing a degree in architecture. My first year was filled with exciting projects that fueled my passion for design. However, I decided to take a break to reassess my career path and explore other interests. I appreciate the knowledge I gained during my time there and look forward to what the future holds.
                   </p>
                 </div>
+                
               </div>
             </div>
             <div className="col-lg-6">
@@ -471,121 +463,7 @@ function App() {
         </div>
       </div>
       {/* Skill End */}
-      {/* Services Start */}
-      <div className="container-fluid pt-5" id="service">
-        <div className="container">
-          <div className="position-relative d-flex align-items-center justify-content-center">
-            <h1
-              className="display-1 text-uppercase text-white"
-              style={{ WebkitTextStroke: "1px #dee2e6" }}
-            >
-              Service
-            </h1>
-            <h1 className="position-absolute text-uppercase text-primary">
-              My Services
-            </h1>
-          </div>
-          <div className="row pb-3">
-            <div className="col-lg-4 col-md-6 text-center mb-5">
-              <div className="d-flex align-items-center justify-content-center mb-4">
-                <i className="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3" />
-                <h4 className="font-weight-bold m-0">Web Design</h4>
-              </div>
-              <p>
-                Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-                Amet lorem lorem lorem est amet labore eirmod erat clita
-              </p>
-              <a
-                className="border-bottom border-primary text-decoration-none"
-                href=""
-              >
-                Read More
-              </a>
-            </div>
-            <div className="col-lg-4 col-md-6 text-center mb-5">
-              <div className="d-flex align-items-center justify-content-center mb-4">
-                <i className="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3" />
-                <h4 className="font-weight-bold m-0">Web Development</h4>
-              </div>
-              <p>
-                Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-                Amet lorem lorem lorem est amet labore eirmod erat clita
-              </p>
-              <a
-                className="border-bottom border-primary text-decoration-none"
-                href=""
-              >
-                Read More
-              </a>
-            </div>
-            <div className="col-lg-4 col-md-6 text-center mb-5">
-              <div className="d-flex align-items-center justify-content-center mb-4">
-                <i className="fab fa-2x fa-android service-icon bg-primary text-white mr-3" />
-                <h4 className="font-weight-bold m-0">Apps Design</h4>
-              </div>
-              <p>
-                Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-                Amet lorem lorem lorem est amet labore eirmod erat clita
-              </p>
-              <a
-                className="border-bottom border-primary text-decoration-none"
-                href=""
-              >
-                Read More
-              </a>
-            </div>
-            <div className="col-lg-4 col-md-6 text-center mb-5">
-              <div className="d-flex align-items-center justify-content-center mb-4">
-                <i className="fab fa-2x fa-apple service-icon bg-primary text-white mr-3" />
-                <h4 className="font-weight-bold m-0">Apps Development</h4>
-              </div>
-              <p>
-                Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-                Amet lorem lorem lorem est amet labore eirmod erat clita
-              </p>
-              <a
-                className="border-bottom border-primary text-decoration-none"
-                href=""
-              >
-                Read More
-              </a>
-            </div>
-            <div className="col-lg-4 col-md-6 text-center mb-5">
-              <div className="d-flex align-items-center justify-content-center mb-4">
-                <i className="fa fa-2x fa-search service-icon bg-primary text-white mr-3" />
-                <h4 className="font-weight-bold m-0">SEO</h4>
-              </div>
-              <p>
-                Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-                Amet lorem lorem lorem est amet labore eirmod erat clita
-              </p>
-              <a
-                className="border-bottom border-primary text-decoration-none"
-                href=""
-              >
-                Read More
-              </a>
-            </div>
-            <div className="col-lg-4 col-md-6 text-center mb-5">
-              <div className="d-flex align-items-center justify-content-center mb-4">
-                <i className="fa fa-2x fa-edit service-icon bg-primary text-white mr-3" />
-                <h4 className="font-weight-bold m-0">Content Creating</h4>
-              </div>
-              <p>
-                Justo sit justo eos amet tempor amet clita amet ipsum eos elitr.
-                Amet lorem lorem lorem est amet labore eirmod erat clita
-              </p>
-              <a
-                className="border-bottom border-primary text-decoration-none"
-                href=""
-              >
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Services End */}
+
       {/* Portfolio Start */}
       <div className="container-fluid pt-5 pb-3" id="portfolio">
         <div className="container">
@@ -635,7 +513,7 @@ function App() {
               <div className="position-relative overflow-hidden mb-2">
                 <img
                   className="img-fluid rounded w-100"
-                  src="img/portfolio-1.jpg"
+                  src= {img3}
                   alt=""
                 />
                 <div className="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -652,7 +530,7 @@ function App() {
               <div className="position-relative overflow-hidden mb-2">
                 <img
                   className="img-fluid rounded w-100"
-                  src="img/portfolio-2.jpg"
+                  src={img4}
                   alt=""
                 />
                 <div className="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
@@ -665,7 +543,7 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-4 portfolio-item third">
+            {/*<div className="col-lg-4 col-md-6 mb-4 portfolio-item third">
               <div className="position-relative overflow-hidden mb-2">
                 <img
                   className="img-fluid rounded w-100"
@@ -732,155 +610,13 @@ function App() {
                   </a>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>
-      {/* Portfolio End */}
-      {/* Testimonial Start */}
-      <div className="container-fluid py-5" id="testimonial">
-        <div className="container">
-          <div className="position-relative d-flex align-items-center justify-content-center">
-            <h1
-              className="display-1 text-uppercase text-white"
-              style={{ WebkitTextStroke: "1px #dee2e6" }}
-            >
-              Review
-            </h1>
-            <h1 className="position-absolute text-uppercase text-primary">
-              Clients Say
-            </h1>
-          </div>
-          <div className="row justify-content-center">
-            <div className="col-lg-8">
-              <div className="owl-carousel testimonial-carousel">
-                <div className="text-center">
-                  <i className="fa fa-3x fa-quote-left text-primary mb-4" />
-                  <h4 className="font-weight-light mb-4">
-                    Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                    elitr dolore et eos labore, stet justo sed est sed. Diam sed
-                    sed dolor stet accusam amet eirmod eos, labore diam clita
-                  </h4>
-                  <img
-                    className="img-fluid rounded-circle mx-auto mb-3"
-                    src="img/testimonial-1.jpg"
-                    style={{ width: 80, height: 80 }}
-                  />
-                  <h5 className="font-weight-bold m-0">Client Name</h5>
-                  <span>Profession</span>
-                </div>
-                <div className="text-center">
-                  <i className="fa fa-3x fa-quote-left text-primary mb-4" />
-                  <h4 className="font-weight-light mb-4">
-                    Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                    elitr dolore et eos labore, stet justo sed est sed. Diam sed
-                    sed dolor stet accusam amet eirmod eos, labore diam clita
-                  </h4>
-                  <img
-                    className="img-fluid rounded-circle mx-auto mb-3"
-                    src="img/testimonial-2.jpg"
-                    style={{ width: 80, height: 80 }}
-                  />
-                  <h5 className="font-weight-bold m-0">Client Name</h5>
-                  <span>Profession</span>
-                </div>
-                <div className="text-center">
-                  <i className="fa fa-3x fa-quote-left text-primary mb-4" />
-                  <h4 className="font-weight-light mb-4">
-                    Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum
-                    elitr dolore et eos labore, stet justo sed est sed. Diam sed
-                    sed dolor stet accusam amet eirmod eos, labore diam clita
-                  </h4>
-                  <img
-                    className="img-fluid rounded-circle mx-auto mb-3"
-                    src="img/testimonial-3.jpg"
-                    style={{ width: 80, height: 80 }}
-                  />
-                  <h5 className="font-weight-bold m-0">Client Name</h5>
-                  <span>Profession</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Testimonial End */}
-      {/* Blog Start */}
-      <div className="container-fluid pt-5" id="blog">
-        <div className="container">
-          <div className="position-relative d-flex align-items-center justify-content-center">
-            <h1
-              className="display-1 text-uppercase text-white"
-              style={{ WebkitTextStroke: "1px #dee2e6" }}
-            >
-              Blog
-            </h1>
-            <h1 className="position-absolute text-uppercase text-primary">
-              Latest Blog
-            </h1>
-          </div>
-          <div className="row">
-            <div className="col-lg-4 mb-5">
-              <div className="position-relative mb-4">
-                <img
-                  className="img-fluid rounded w-100"
-                  src="img/blog-1.jpg"
-                  alt=""
-                />
-                <div className="blog-date">
-                  <h4 className="font-weight-bold mb-n1">01</h4>
-                  <small className="text-white text-uppercase">Jan</small>
-                </div>
-              </div>
-              <h5 className="font-weight-medium mb-4">
-                Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
-              </h5>
-              <a className="btn btn-sm btn-outline-primary py-2" href="">
-                Read More
-              </a>
-            </div>
-            <div className="col-lg-4 mb-5">
-              <div className="position-relative mb-4">
-                <img
-                  className="img-fluid rounded w-100"
-                  src="img/blog-2.jpg"
-                  alt=""
-                />
-                <div className="blog-date">
-                  <h4 className="font-weight-bold mb-n1">01</h4>
-                  <small className="text-white text-uppercase">Jan</small>
-                </div>
-              </div>
-              <h5 className="font-weight-medium mb-4">
-                Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
-              </h5>
-              <a className="btn btn-sm btn-outline-primary py-2" href="">
-                Read More
-              </a>
-            </div>
-            <div className="col-lg-4 mb-5">
-              <div className="position-relative mb-4">
-                <img
-                  className="img-fluid rounded w-100"
-                  src="img/blog-3.jpg"
-                  alt=""
-                />
-                <div className="blog-date">
-                  <h4 className="font-weight-bold mb-n1">01</h4>
-                  <small className="text-white text-uppercase">Jan</small>
-                </div>
-              </div>
-              <h5 className="font-weight-medium mb-4">
-                Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum
-              </h5>
-              <a className="btn btn-sm btn-outline-primary py-2" href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Blog End */}
+      {/*} Portfolio End */}
+      
+      
       {/* Contact Start */}
       <div className="container-fluid py-5" id="contact">
         <div className="container">
@@ -1004,14 +740,14 @@ function App() {
           <p className="m-0">
             ©{" "}
             <a className="text-white font-weight-bold" href="#">
-              Domain Name
+              astridborja
             </a>
-            . All Rights Reserved. Designed by{" "}
+            . All Rights Reserved. {" "}
             <a
               className="text-white font-weight-bold"
               href="https://htmlcodex.com"
             >
-              HTML Codex
+              
             </a>
           </p>
         </div>
