@@ -1,6 +1,9 @@
 import "./css/style.css";
 import "./css/style.min.css";
 
+import img1 from './img/profile.jpg'
+import img2 from './img/about.jpg'
+
 function App() {
   return (
     <div className="Body">
@@ -100,7 +103,7 @@ function App() {
             <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
               <img
                 className="img-fluid w-100 rounded-circle shadow-sm"
-                src="./src/img/profile.jpg"
+                src= {img1}
                 alt=""
               />
             </div>
@@ -157,7 +160,7 @@ function App() {
             <div className="col-lg-5 pb-4 pb-lg-0">
               <img
                 className="img-fluid rounded w-100"
-                src="./src/img/about.jpg"
+                src= {img2}
                 alt=""
               />
             </div>
