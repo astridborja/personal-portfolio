@@ -100,7 +100,7 @@ function App() {
             <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
               <img
                 className="img-fluid w-100 rounded-circle shadow-sm"
-                src="img/profile.jpg"
+                src="./src/img/profile.jpg"
                 alt=""
               />
             </div>
@@ -157,7 +157,7 @@ function App() {
             <div className="col-lg-5 pb-4 pb-lg-0">
               <img
                 className="img-fluid rounded w-100"
-                src="img/about.jpg"
+                src="./src/img/about.jpg"
                 alt=""
               />
             </div>
@@ -178,7 +178,7 @@ function App() {
                 <div className="col-sm-6 py-2">
                   <h6>
                     Birthday:{" "}
-                    <span className="text-secondary">1 April 1990</span>
+                    <span className="text-secondary">16 October 2001</span>
                   </h6>
                 </div>
                 <div className="col-sm-6 py-2">
